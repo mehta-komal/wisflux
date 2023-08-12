@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication and Division</title>
+    <style>
+      body {
+        border: 2px solid black;
+        width: 300px;
+        margin: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: beige;
+      }
+      .input1 {
+        margin: 20px;
+      }
+      button {
+        margin: 20px;
+        padding: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Calculator</h1>
+    <form id="calculator-form">
+      <div class="input1">
+        <label for="num1">Ist Number:</label>
+
+        <input type="number" id="num1" required />
+      </div>
+
+      <div class="input1">
+        <label for="num2">2nd Number:</label>
+        <input type="number" id="num2" required />
+      </div>
+      <div cclass="button1">
+        <button type="button" onclick="multiply()">Multiply</button>
+        <button type="button" onclick="divide()">Divide</button>
+      </div>
+    </form>
+    <h2>The Result is:</h2>
+    <p id="result"></p>
+
+    <script>
+      function multiply() {
+        const num1 = document.getElementById('num1').value;
+        const num2 = document.getElementById('num2').value;
+
+        const multiplyResult = num1 * num2;
+        document.getElementById('result').textContent = multiplyResult;
+      }
+
+      function divide() {
+        const num1 = document.getElementById('num1').value;
+        const num2 = document.getElementById('num2').value;
+
+        const divisionResult = num1 / num2;
+        document.getElementById('result').textContent = divisionResult;
+      }
+    </script>
+  </body>
+</html>
