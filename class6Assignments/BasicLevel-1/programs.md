@@ -1,4 +1,4 @@
-# Average of array nums in javascript?
+## Average of array nums in javascript?
 
 ```javaScript
 const nums = [10, 20, 30 ,40, 50];
@@ -9,7 +9,7 @@ const average = sum/nums.length;
 console.log(`Average: ${average}`);
 ```
 
-# Swap two numbers by reference?
+## Swap two numbers by reference?
 
 ```javaScript
 const swapNumber = (a, b)=>{
@@ -24,7 +24,7 @@ let num2 = 40;
 console.log(`num1: ${num1} and num2: ${num2}`);
 ```
 
-# Print the fibonacci sequence?
+## Print the fibonacci sequence?
 
 ```javaScript
 const fibonacciSeq = (num)=>{
@@ -42,7 +42,7 @@ for(let i = 0; i <= num; i++){
 }
 fibonacciSeq(10);
 ```
-# Sort an array by both ascending and decending order?
+## Sort an array by both ascending and decending order?
 
 ```javascript
 const array  = [2, 3, 4, 6, 1]
@@ -55,7 +55,7 @@ const array  = [2, 3, 4, 6, 1]
 
 ```
 
-# Show a variable value in an HTML webpage using DOM?
+## Show a variable value in an HTML webpage using DOM?
 
 ### HTML
 ```HTML
