@@ -1,8 +1,8 @@
 ## What is NodeJS?
-Node.js is an open-source, server-side runtime environment built on the v8 JavaScript engine. It allows running Javascript code on the server, enabling the development of scalable and efficient network applications.
+Node.js is an open-source, server-side runtime environment built on the V8 JavaScript engine. It allows running Javascript code on the server, enabling the development of scalable and efficient network applications.
  
 ## What is V8 Engine?
-The v8 engine is an open-source JavaScript engine developed bu Google. It powers many modern web browsers and is also used by Node.js. It compiles javascript into machine code, optimizing its execution speed.
+The V8 engine is an open-source JavaScript engine developed by Google. It powers many modern web browsers and is also used by Node.js. It compiles javascript into machine code, optimizing its execution speed.
 
 ## What is Event Loop in NodeJS?
 
@@ -20,7 +20,7 @@ The 'fs' module in Node.js provides various methods to manipulate files:
 * **fs.unlink()**: Deletes a file.
 
 ## What is API?
-An API is a set of rules and protocols that allows different software components to interact and communicate with eacg other. It defines how functions, mehtods, or services can be accessed and used.
+An API is a set of rules and protocols that allows different software components to interact and communicate with each other. It defines how functions, methods, or services can be accessed and used.
 
 ## What is JSON format?
 JSON is a lightweight data interchange format. It's a text-based format that represents structured data as key-value pairs. JSON is easy for both humans and machines to read and write.
